@@ -14,13 +14,15 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="556dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="36dp" app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintEnd_toStartOf="@+id/game_button_idoit" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/game_button_idiot" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="127dp"/>
     <Button
             android:text="@string/idiot"
             android:onClick="idiot"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/game_button_idoit"
-            tools:layout_editor_absoluteY="127dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="160dp"/>
+            android:layout_height="wrap_content" android:id="@+id/game_button_idiot"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="160dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="127dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="556dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

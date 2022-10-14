@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Games</string>
-    <string name="idiot">War</string>
-    <string name="war">Idiot</string>
+    <string name="idiot">Idiot</string>
+    <string name="war">War</string>
 </resources>
